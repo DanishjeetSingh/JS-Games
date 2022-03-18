@@ -217,11 +217,6 @@ const startLogOutTimer = function () {
 // Event handlers
 let currentAccount, timer;
 
-//fake login always
-currentAccount = account1;
-updateUI(account1);
-containerApp.style.opacity = 100;
-
 btnLogin.addEventListener("click", function (e) {
   // Prevent form from submitting
   e.preventDefault();
